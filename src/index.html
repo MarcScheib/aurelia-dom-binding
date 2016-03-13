@@ -1,0 +1,9 @@
+<template>
+  <require from='./model-element'></require>
+
+  <div id="list">
+    <model model.bind="model" repeat.for="model of models"></model>
+  </div>
+
+  <button onclick.call="showModel()">Go</button>
+</template>
