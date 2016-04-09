@@ -13,6 +13,6 @@ export class Index {
   }
 
   showModel() {
-    console.log(document.getElementById('list').children[0].model.model);
+    console.log(document.getElementById('list').children[0].au.model.viewModel.model.color);
   }
 }
